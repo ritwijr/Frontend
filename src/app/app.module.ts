@@ -28,6 +28,7 @@ import { RecruiterModule } from './module/recruiter/recruiter.module';
 import { LoginComponent } from './components/login/login.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { FeedbackComponent } from './components/feedback/feedback.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { HttpClientModule } from '@angular/common/http';
     AddBookmarkfreelancerComponent,
     FindBookmarkfreelancerByskillComponent,
     FindBookmarkfreelancerByidComponent,
-    LoginComponent
+    LoginComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,

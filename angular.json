@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Online-Job-Portal"
+    }
+  },
+  "defaultProject": "Online-Job-Portal",
+  "cli": {
+    "analytics": false
+  }
 }
